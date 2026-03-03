@@ -34,3 +34,39 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ 
+
+
+
+
+ 
+ //Prisma
+ E:\website\ecommerce_edu\project>npx prisma init --db
+This will create a project for you on console.prisma.io and requires you to be authenticated.
+√ Would you like to authenticate? Yes
+Let's set up your Prisma Postgres database!
+√ Select your region: us-east-1 - US East (N. Virginia)
+√ Enter a project name: prisma_project
+√ Success! Your Prisma Postgres database is ready ✅
+
+We created an initial schema.prisma file and a .env file with your DATABASE_URL environment variable already set.
+
+--- Next steps ---
+
+Go to https://pris.ly/ppg-init for detailed instructions.
+
+1. Define your database schema
+Open the schema.prisma file and define your first models. Check the docs if you need inspiration: https://pris.ly/ppg-init.
+
+2. Apply migrations
+Run the following command to create and apply a migration:
+npx prisma migrate dev --name init
+
+3. Manage your data
+View and edit your data locally by running this command:
+npx prisma studio
+...or online in Console:
+https://console.prisma.io/cmma745cm01pezqedz562yfmi/cmma98jnx00bhxbei3j2308rv/cmma98jnx00bfxbei9056gyni/studio
+
+4. Send queries from your app
+To access your database from a JavaScript/TypeScript app, you need to use Prisma ORM. Go here for step-by-step instructions: https://pris.ly/ppg-init
